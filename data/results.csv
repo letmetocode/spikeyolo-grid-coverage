@@ -1,0 +1,712 @@
+study,split,epoch,seed,arm,setting,metric,value,unit
+P2_geometry,AI-TOD-v2 val,50,0,P2_vs_B,E1vt score>=0.25 IoU>=0.75,P2_only,258,count
+P2_geometry,AI-TOD-v2 val,50,0,P2_vs_B,E1vt score>=0.25 IoU>=0.75,B_reachable,257,count
+P2_geometry,AI-TOD-v2 val,50,1,P2_vs_B,E1vt score>=0.25 IoU>=0.75,P2_only,231,count
+P2_geometry,AI-TOD-v2 val,50,1,P2_vs_B,E1vt score>=0.25 IoU>=0.75,B_reachable,231,count
+P2_geometry,AI-TOD-v2 val,50,2,P2_vs_B,E1vt score>=0.25 IoU>=0.75,P2_only,228,count
+P2_geometry,AI-TOD-v2 val,50,2,P2_vs_B,E1vt score>=0.25 IoU>=0.75,B_reachable,228,count
+baseline50,AI-TOD-v2 val,50,0,B,official,AP,21.952797283017894,%
+baseline50,AI-TOD-v2 val,50,0,B,official,AP50,51.551145466897054,%
+baseline50,AI-TOD-v2 val,50,0,B,official,AP75,14.136620663680407,%
+baseline50,AI-TOD-v2 val,50,0,B,official,APvt,7.084092626411152,%
+baseline50,AI-TOD-v2 val,50,0,B,official,APt,19.81558305715076,%
+baseline50,AI-TOD-v2 val,50,0,B,score>=0.25,FP_per_image,6.866262482168331,FP/image
+baseline50,AI-TOD-v2 val,50,0,B,score>=0.25,dup_per_TP,0.05241360448533865,dup/TP
+baseline50,AI-TOD-v2 val,50,0,B,score>=0.25,FP50,19253,count
+baseline50,AI-TOD-v2 val,50,0,B,score>=0.25,TP50,51189,count
+baseline50,AI-TOD-v2 val,50,0,B,score>=0.25,dup_FP50,2683,count
+baseline50,AI-TOD-v2 val,50,0,B,common4,common4_APvt,9.611479112132459,%
+baseline50,AI-TOD-v2 val,50,0,B,common4,common4_APt,28.51363056878622,%
+baseline50,AI-TOD-v2 val,50,0,B,score>=0.25,E1vt_R50,12.511150758251562,%
+baseline50,AI-TOD-v2 val,50,0,B,score>=0.25,E1vt_R75,0.49063336306868865,%
+baseline50,AI-TOD-v2 val,50,0,B,matched FP against B in same seed,E1vt_R50,12.511150758251562,%
+baseline50,AI-TOD-v2 val,50,0,B,matched FP against B in same seed,E1vt_R75,0.49063336306868865,%
+baseline50,AI-TOD-v2 val,50,0,B,matched FP against B in same seed,FP_per_image,6.866262482168331,FP/image
+baseline50,AI-TOD-v2 val,50,0,B,matched FP against B in same seed,dup_per_TP,0.05241360448533865,dup/TP
+baseline50,AI-TOD-v2 val,50,0,B,matched FP against B in same seed,FP50,19253,count
+baseline50,AI-TOD-v2 val,50,0,B,matched FP against B in same seed,TP50,51189,count
+baseline50,AI-TOD-v2 val,50,0,B,matched FP against B in same seed,dup_FP50,2683,count
+baseline50,AI-TOD-v2 val,50,0,B,matched FP against B in same seed,threshold,0.25,score
+baseline50,AI-TOD-v2 val,50,0,B,500 val images,energy_mJ,57.42415402205579,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,0,B,500 val images,energy_mJ_first_layer_4p6pJ,57.597261222055785,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,0,B,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,0,B,500 val images batch=1,pipeline_ms_per_image,66.19784340052865,ms/image
+baseline50,AI-TOD-v2 val,50,0,B,500 val images batch=4,pipeline_ms_per_image,26.798184600658715,ms/image
+baseline50,AI-TOD-v2 val,50,1,B,official,AP,22.62369319495361,%
+baseline50,AI-TOD-v2 val,50,1,B,official,AP50,51.82586992520161,%
+baseline50,AI-TOD-v2 val,50,1,B,official,AP75,15.551955908175724,%
+baseline50,AI-TOD-v2 val,50,1,B,official,APvt,5.127036229641564,%
+baseline50,AI-TOD-v2 val,50,1,B,official,APt,19.98946250395653,%
+baseline50,AI-TOD-v2 val,50,1,B,score>=0.25,FP_per_image,6.809557774607703,FP/image
+baseline50,AI-TOD-v2 val,50,1,B,score>=0.25,dup_per_TP,0.05201191082552992,dup/TP
+baseline50,AI-TOD-v2 val,50,1,B,score>=0.25,FP50,19094,count
+baseline50,AI-TOD-v2 val,50,1,B,score>=0.25,TP50,51046,count
+baseline50,AI-TOD-v2 val,50,1,B,score>=0.25,dup_FP50,2655,count
+baseline50,AI-TOD-v2 val,50,1,B,common4,common4_APvt,8.89891722049664,%
+baseline50,AI-TOD-v2 val,50,1,B,common4,common4_APt,28.074331813177732,%
+baseline50,AI-TOD-v2 val,50,1,B,score>=0.25,E1vt_R50,12.421944692239073,%
+baseline50,AI-TOD-v2 val,50,1,B,score>=0.25,E1vt_R75,0.49063336306868865,%
+baseline50,AI-TOD-v2 val,50,1,B,matched FP against B in same seed,E1vt_R50,12.421944692239073,%
+baseline50,AI-TOD-v2 val,50,1,B,matched FP against B in same seed,E1vt_R75,0.49063336306868865,%
+baseline50,AI-TOD-v2 val,50,1,B,matched FP against B in same seed,FP_per_image,6.809557774607703,FP/image
+baseline50,AI-TOD-v2 val,50,1,B,matched FP against B in same seed,dup_per_TP,0.05201191082552992,dup/TP
+baseline50,AI-TOD-v2 val,50,1,B,matched FP against B in same seed,FP50,19094,count
+baseline50,AI-TOD-v2 val,50,1,B,matched FP against B in same seed,TP50,51046,count
+baseline50,AI-TOD-v2 val,50,1,B,matched FP against B in same seed,dup_FP50,2655,count
+baseline50,AI-TOD-v2 val,50,1,B,matched FP against B in same seed,threshold,0.25,score
+baseline50,AI-TOD-v2 val,50,1,B,500 val images,energy_mJ,57.0319972171596,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,1,B,500 val images,energy_mJ_first_layer_4p6pJ,57.205104417159596,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,1,B,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,1,B,500 val images batch=1,pipeline_ms_per_image,64.48084560153075,ms/image
+baseline50,AI-TOD-v2 val,50,1,B,500 val images batch=4,pipeline_ms_per_image,26.482933599269018,ms/image
+baseline50,AI-TOD-v2 val,50,2,B,official,AP,22.025864452495473,%
+baseline50,AI-TOD-v2 val,50,2,B,official,AP50,51.53464089261652,%
+baseline50,AI-TOD-v2 val,50,2,B,official,AP75,14.892229845492762,%
+baseline50,AI-TOD-v2 val,50,2,B,official,APvt,5.426393531042311,%
+baseline50,AI-TOD-v2 val,50,2,B,official,APt,19.14623502195397,%
+baseline50,AI-TOD-v2 val,50,2,B,score>=0.25,FP_per_image,6.620542082738944,FP/image
+baseline50,AI-TOD-v2 val,50,2,B,score>=0.25,dup_per_TP,0.05183431952662722,dup/TP
+baseline50,AI-TOD-v2 val,50,2,B,score>=0.25,FP50,18564,count
+baseline50,AI-TOD-v2 val,50,2,B,score>=0.25,TP50,50700,count
+baseline50,AI-TOD-v2 val,50,2,B,score>=0.25,dup_FP50,2628,count
+baseline50,AI-TOD-v2 val,50,2,B,common4,common4_APvt,9.603767369543826,%
+baseline50,AI-TOD-v2 val,50,2,B,common4,common4_APt,28.144334977039616,%
+baseline50,AI-TOD-v2 val,50,2,B,score>=0.25,E1vt_R50,12.622658340767172,%
+baseline50,AI-TOD-v2 val,50,2,B,score>=0.25,E1vt_R75,0.5798394290811775,%
+baseline50,AI-TOD-v2 val,50,2,B,matched FP against B in same seed,E1vt_R50,12.622658340767172,%
+baseline50,AI-TOD-v2 val,50,2,B,matched FP against B in same seed,E1vt_R75,0.5798394290811775,%
+baseline50,AI-TOD-v2 val,50,2,B,matched FP against B in same seed,FP_per_image,6.620542082738944,FP/image
+baseline50,AI-TOD-v2 val,50,2,B,matched FP against B in same seed,dup_per_TP,0.05183431952662722,dup/TP
+baseline50,AI-TOD-v2 val,50,2,B,matched FP against B in same seed,FP50,18564,count
+baseline50,AI-TOD-v2 val,50,2,B,matched FP against B in same seed,TP50,50700,count
+baseline50,AI-TOD-v2 val,50,2,B,matched FP against B in same seed,dup_FP50,2628,count
+baseline50,AI-TOD-v2 val,50,2,B,matched FP against B in same seed,threshold,0.25,score
+baseline50,AI-TOD-v2 val,50,2,B,500 val images,energy_mJ,56.657768738733004,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,2,B,500 val images,energy_mJ_first_layer_4p6pJ,56.830875938732994,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,2,B,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,2,B,500 val images batch=1,pipeline_ms_per_image,61.045104197692126,ms/image
+baseline50,AI-TOD-v2 val,50,2,B,500 val images batch=4,pipeline_ms_per_image,26.55427720048465,ms/image
+baseline50,AI-TOD-v2 val,50,3,B,official,AP,22.45383236382478,%
+baseline50,AI-TOD-v2 val,50,3,B,official,AP50,52.39324393933615,%
+baseline50,AI-TOD-v2 val,50,3,B,official,AP75,15.080295208353379,%
+baseline50,AI-TOD-v2 val,50,3,B,official,APvt,7.077879841197324,%
+baseline50,AI-TOD-v2 val,50,3,B,official,APt,19.89525976325737,%
+baseline50,AI-TOD-v2 val,50,3,B,score>=0.25,FP_per_image,6.925820256776034,FP/image
+baseline50,AI-TOD-v2 val,50,3,B,score>=0.25,dup_per_TP,0.06060427702570139,dup/TP
+baseline50,AI-TOD-v2 val,50,3,B,score>=0.25,FP50,19420,count
+baseline50,AI-TOD-v2 val,50,3,B,score>=0.25,TP50,50970,count
+baseline50,AI-TOD-v2 val,50,3,B,score>=0.25,dup_FP50,3089,count
+baseline50,AI-TOD-v2 val,50,3,B,common4,common4_APvt,9.880121008991994,%
+baseline50,AI-TOD-v2 val,50,3,B,common4,common4_APt,28.374749167490048,%
+baseline50,AI-TOD-v2 val,50,3,B,500 val images,energy_mJ,56.676694052795405,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,3,B,500 val images,energy_mJ_first_layer_4p6pJ,56.84980125279541,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,3,B,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,3,B,500 val images batch=1,pipeline_ms_per_image,69.90567940147594,ms/image
+baseline50,AI-TOD-v2 val,50,3,B,500 val images batch=4,pipeline_ms_per_image,26.594874798785895,ms/image
+baseline50,AI-TOD-v2 val,50,4,B,official,AP,22.72954686563686,%
+baseline50,AI-TOD-v2 val,50,4,B,official,AP50,52.04505553153368,%
+baseline50,AI-TOD-v2 val,50,4,B,official,AP75,15.45606351431801,%
+baseline50,AI-TOD-v2 val,50,4,B,official,APvt,6.258392280677144,%
+baseline50,AI-TOD-v2 val,50,4,B,official,APt,20.506877055708767,%
+baseline50,AI-TOD-v2 val,50,4,B,score>=0.25,FP_per_image,6.7970756062767475,FP/image
+baseline50,AI-TOD-v2 val,50,4,B,score>=0.25,dup_per_TP,0.05591516320066107,dup/TP
+baseline50,AI-TOD-v2 val,50,4,B,score>=0.25,FP50,19059,count
+baseline50,AI-TOD-v2 val,50,4,B,score>=0.25,TP50,50827,count
+baseline50,AI-TOD-v2 val,50,4,B,score>=0.25,dup_FP50,2842,count
+baseline50,AI-TOD-v2 val,50,4,B,common4,common4_APvt,9.31291409144985,%
+baseline50,AI-TOD-v2 val,50,4,B,common4,common4_APt,28.62851094345402,%
+baseline50,AI-TOD-v2 val,50,4,B,500 val images,energy_mJ,55.12242132983522,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,4,B,500 val images,energy_mJ_first_layer_4p6pJ,55.295528529835224,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,4,B,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,4,B,500 val images batch=1,pipeline_ms_per_image,60.57608719985001,ms/image
+baseline50,AI-TOD-v2 val,50,4,B,500 val images batch=4,pipeline_ms_per_image,26.265339998994023,ms/image
+baseline50,AI-TOD-v2 val,50,representative,B,deployment,parameters,23125160,parameters
+baseline50,AI-TOD-v2 val,50,0,STAL,official,AP,22.512117058899882,%
+baseline50,AI-TOD-v2 val,50,0,STAL,official,AP50,52.62176046608421,%
+baseline50,AI-TOD-v2 val,50,0,STAL,official,AP75,14.593741817356932,%
+baseline50,AI-TOD-v2 val,50,0,STAL,official,APvt,7.196905671753432,%
+baseline50,AI-TOD-v2 val,50,0,STAL,official,APt,19.97779914763252,%
+baseline50,AI-TOD-v2 val,50,0,STAL,score>=0.25,FP_per_image,8.144793152639087,FP/image
+baseline50,AI-TOD-v2 val,50,0,STAL,score>=0.25,dup_per_TP,0.06633298706204552,dup/TP
+baseline50,AI-TOD-v2 val,50,0,STAL,score>=0.25,FP50,22838,count
+baseline50,AI-TOD-v2 val,50,0,STAL,score>=0.25,TP50,52945,count
+baseline50,AI-TOD-v2 val,50,0,STAL,score>=0.25,dup_FP50,3512,count
+baseline50,AI-TOD-v2 val,50,0,STAL,common4,common4_APvt,10.703844525200443,%
+baseline50,AI-TOD-v2 val,50,0,STAL,common4,common4_APt,28.73245345331667,%
+baseline50,AI-TOD-v2 val,50,0,STAL,score>=0.25,E1vt_R50,25.267618198037468,%
+baseline50,AI-TOD-v2 val,50,0,STAL,score>=0.25,E1vt_R75,2.230151650312221,%
+baseline50,AI-TOD-v2 val,50,0,STAL,matched FP against B in same seed,E1vt_R50,23.81801962533452,%
+baseline50,AI-TOD-v2 val,50,0,STAL,matched FP against B in same seed,E1vt_R75,2.1186440677966103,%
+baseline50,AI-TOD-v2 val,50,0,STAL,matched FP against B in same seed,FP_per_image,6.866262482168331,FP/image
+baseline50,AI-TOD-v2 val,50,0,STAL,matched FP against B in same seed,dup_per_TP,0.052307573176397705,dup/TP
+baseline50,AI-TOD-v2 val,50,0,STAL,matched FP against B in same seed,FP50,19253,count
+baseline50,AI-TOD-v2 val,50,0,STAL,matched FP against B in same seed,TP50,51656,count
+baseline50,AI-TOD-v2 val,50,0,STAL,matched FP against B in same seed,dup_FP50,2702,count
+baseline50,AI-TOD-v2 val,50,0,STAL,matched FP against B in same seed,threshold,0.2818801701068878,score
+baseline50,AI-TOD-v2 val,50,0,STAL,500 val images,energy_mJ,56.256595886239204,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,0,STAL,500 val images,energy_mJ_first_layer_4p6pJ,56.4297030862392,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,0,STAL,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,0,STAL,500 val images batch=1,pipeline_ms_per_image,63.79234059876762,ms/image
+baseline50,AI-TOD-v2 val,50,0,STAL,500 val images batch=4,pipeline_ms_per_image,26.801409799372777,ms/image
+baseline50,AI-TOD-v2 val,50,1,STAL,official,AP,22.446649691084783,%
+baseline50,AI-TOD-v2 val,50,1,STAL,official,AP50,52.41138227144053,%
+baseline50,AI-TOD-v2 val,50,1,STAL,official,AP75,14.661484395266392,%
+baseline50,AI-TOD-v2 val,50,1,STAL,official,APvt,6.195801335174172,%
+baseline50,AI-TOD-v2 val,50,1,STAL,official,APt,19.643682867703053,%
+baseline50,AI-TOD-v2 val,50,1,STAL,score>=0.25,FP_per_image,7.884094151212554,FP/image
+baseline50,AI-TOD-v2 val,50,1,STAL,score>=0.25,dup_per_TP,0.06357803359124363,dup/TP
+baseline50,AI-TOD-v2 val,50,1,STAL,score>=0.25,FP50,22107,count
+baseline50,AI-TOD-v2 val,50,1,STAL,score>=0.25,TP50,52990,count
+baseline50,AI-TOD-v2 val,50,1,STAL,score>=0.25,dup_FP50,3369,count
+baseline50,AI-TOD-v2 val,50,1,STAL,common4,common4_APvt,10.616516537363422,%
+baseline50,AI-TOD-v2 val,50,1,STAL,common4,common4_APt,28.731297433469617,%
+baseline50,AI-TOD-v2 val,50,1,STAL,score>=0.25,E1vt_R50,25.69134701159679,%
+baseline50,AI-TOD-v2 val,50,1,STAL,score>=0.25,E1vt_R75,2.2524531668153434,%
+baseline50,AI-TOD-v2 val,50,1,STAL,matched FP against B in same seed,E1vt_R50,24.152542372881356,%
+baseline50,AI-TOD-v2 val,50,1,STAL,matched FP against B in same seed,E1vt_R75,2.1186440677966103,%
+baseline50,AI-TOD-v2 val,50,1,STAL,matched FP against B in same seed,FP_per_image,6.809557774607703,FP/image
+baseline50,AI-TOD-v2 val,50,1,STAL,matched FP against B in same seed,dup_per_TP,0.0516452764643443,dup/TP
+baseline50,AI-TOD-v2 val,50,1,STAL,matched FP against B in same seed,FP50,19094,count
+baseline50,AI-TOD-v2 val,50,1,STAL,matched FP against B in same seed,TP50,51815,count
+baseline50,AI-TOD-v2 val,50,1,STAL,matched FP against B in same seed,dup_FP50,2676,count
+baseline50,AI-TOD-v2 val,50,1,STAL,matched FP against B in same seed,threshold,0.27726471424102783,score
+baseline50,AI-TOD-v2 val,50,1,STAL,500 val images,energy_mJ,56.123284788377994,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,1,STAL,500 val images,energy_mJ_first_layer_4p6pJ,56.29639198837799,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,1,STAL,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,1,STAL,500 val images batch=1,pipeline_ms_per_image,61.86154500115663,ms/image
+baseline50,AI-TOD-v2 val,50,1,STAL,500 val images batch=4,pipeline_ms_per_image,26.384956599446014,ms/image
+baseline50,AI-TOD-v2 val,50,2,STAL,official,AP,22.908236159412624,%
+baseline50,AI-TOD-v2 val,50,2,STAL,official,AP50,53.46140060907075,%
+baseline50,AI-TOD-v2 val,50,2,STAL,official,AP75,14.874454866310282,%
+baseline50,AI-TOD-v2 val,50,2,STAL,official,APvt,6.948729594023676,%
+baseline50,AI-TOD-v2 val,50,2,STAL,official,APt,20.43250436934811,%
+baseline50,AI-TOD-v2 val,50,2,STAL,score>=0.25,FP_per_image,7.81169757489301,FP/image
+baseline50,AI-TOD-v2 val,50,2,STAL,score>=0.25,dup_per_TP,0.059207793678963866,dup/TP
+baseline50,AI-TOD-v2 val,50,2,STAL,score>=0.25,FP50,21904,count
+baseline50,AI-TOD-v2 val,50,2,STAL,score>=0.25,TP50,52966,count
+baseline50,AI-TOD-v2 val,50,2,STAL,score>=0.25,dup_FP50,3136,count
+baseline50,AI-TOD-v2 val,50,2,STAL,common4,common4_APvt,10.249894422506811,%
+baseline50,AI-TOD-v2 val,50,2,STAL,common4,common4_APt,28.691155030934613,%
+baseline50,AI-TOD-v2 val,50,2,STAL,score>=0.25,E1vt_R50,24.219446922390723,%
+baseline50,AI-TOD-v2 val,50,2,STAL,score>=0.25,E1vt_R75,2.7653880463871543,%
+baseline50,AI-TOD-v2 val,50,2,STAL,matched FP against B in same seed,E1vt_R50,22.36842105263158,%
+baseline50,AI-TOD-v2 val,50,2,STAL,matched FP against B in same seed,E1vt_R75,2.52007136485281,%
+baseline50,AI-TOD-v2 val,50,2,STAL,matched FP against B in same seed,FP_per_image,6.620542082738944,FP/image
+baseline50,AI-TOD-v2 val,50,2,STAL,matched FP against B in same seed,dup_per_TP,0.04679779091173336,dup/TP
+baseline50,AI-TOD-v2 val,50,2,STAL,matched FP against B in same seed,FP50,18564,count
+baseline50,AI-TOD-v2 val,50,2,STAL,matched FP against B in same seed,TP50,51605,count
+baseline50,AI-TOD-v2 val,50,2,STAL,matched FP against B in same seed,dup_FP50,2415,count
+baseline50,AI-TOD-v2 val,50,2,STAL,matched FP against B in same seed,threshold,0.2804187834262848,score
+baseline50,AI-TOD-v2 val,50,2,STAL,500 val images,energy_mJ,56.583777146646604,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,2,STAL,500 val images,energy_mJ_first_layer_4p6pJ,56.75688434664661,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,2,STAL,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,2,STAL,500 val images batch=1,pipeline_ms_per_image,61.200456399004906,ms/image
+baseline50,AI-TOD-v2 val,50,2,STAL,500 val images batch=4,pipeline_ms_per_image,26.70882159890607,ms/image
+baseline50,AI-TOD-v2 val,50,representative,STAL,deployment,parameters,23125160,parameters
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,official,AP,22.030113467428276,%
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,official,AP50,51.49733273585137,%
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,official,AP75,14.340154496907855,%
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,official,APvt,6.04546092843637,%
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,official,APt,19.77033930954814,%
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,score>=0.25,FP_per_image,7.9054921540656204,FP/image
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,score>=0.25,dup_per_TP,0.06207377265363023,dup/TP
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,score>=0.25,FP50,22167,count
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,score>=0.25,TP50,53082,count
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,score>=0.25,dup_FP50,3295,count
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,common4,common4_APvt,10.827958162990136,%
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,common4,common4_APt,28.866957652634827,%
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,score>=0.25,E1vt_R50,25.936663693131134,%
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,score>=0.25,E1vt_R75,3.256021409455843,%
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,matched FP against B in same seed,E1vt_R50,24.42016057091882,%
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,matched FP against B in same seed,E1vt_R75,3.0999107939339874,%
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,matched FP against B in same seed,FP_per_image,6.866262482168331,FP/image
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,matched FP against B in same seed,dup_per_TP,0.0520977675134719,dup/TP
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,matched FP against B in same seed,FP50,19253,count
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,matched FP against B in same seed,TP50,51960,count
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,matched FP against B in same seed,dup_FP50,2707,count
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,matched FP against B in same seed,threshold,0.2748287618160248,score
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,500 val images,energy_mJ,57.2250298860684,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,500 val images,energy_mJ_first_layer_4p6pJ,57.398137086068395,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,500 val images batch=1,pipeline_ms_per_image,70.18038180004805,ms/image
+baseline50,AI-TOD-v2 val,50,0,STAL_SD,500 val images batch=4,pipeline_ms_per_image,26.363139198860154,ms/image
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,official,AP,22.39191780943573,%
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,official,AP50,52.97405178052984,%
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,official,AP75,14.674222692601486,%
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,official,APvt,6.992373276453205,%
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,official,APt,19.85213305537779,%
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,score>=0.25,FP_per_image,7.488231098430813,FP/image
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,score>=0.25,dup_per_TP,0.06102964949316293,dup/TP
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,score>=0.25,FP50,20997,count
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,score>=0.25,TP50,52581,count
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,score>=0.25,dup_FP50,3209,count
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,common4,common4_APvt,11.200765594952824,%
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,common4,common4_APt,29.000377007921667,%
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,score>=0.25,E1vt_R50,25.022301516503124,%
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,score>=0.25,E1vt_R75,2.943800178412132,%
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,matched FP against B in same seed,E1vt_R50,23.9964317573595,%
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,matched FP against B in same seed,E1vt_R75,2.7653880463871543,%
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,matched FP against B in same seed,FP_per_image,6.809557774607703,FP/image
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,matched FP against B in same seed,dup_per_TP,0.05377444073423537,dup/TP
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,matched FP against B in same seed,FP50,19094,count
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,matched FP against B in same seed,TP50,51809,count
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,matched FP against B in same seed,dup_FP50,2786,count
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,matched FP against B in same seed,threshold,0.2659871578216553,score
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,500 val images,energy_mJ,56.40663318636422,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,500 val images,energy_mJ_first_layer_4p6pJ,56.579740386364215,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,500 val images batch=1,pipeline_ms_per_image,61.04603279824369,ms/image
+baseline50,AI-TOD-v2 val,50,1,STAL_SD,500 val images batch=4,pipeline_ms_per_image,26.377876199316233,ms/image
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,official,AP,22.93437411189034,%
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,official,AP50,52.76475490178173,%
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,official,AP75,15.68166273459556,%
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,official,APvt,6.203141862258284,%
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,official,APt,20.741743231184017,%
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,score>=0.25,FP_per_image,7.721469329529244,FP/image
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,score>=0.25,dup_per_TP,0.0581618499306466,dup/TP
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,score>=0.25,FP50,21651,count
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,score>=0.25,TP50,52629,count
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,score>=0.25,dup_FP50,3061,count
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,common4,common4_APvt,10.77827953355482,%
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,common4,common4_APt,28.670154495038847,%
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,score>=0.25,E1vt_R50,25.825156110615524,%
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,score>=0.25,E1vt_R75,2.854594112399643,%
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,matched FP against B in same seed,E1vt_R50,24.152542372881356,%
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,matched FP against B in same seed,E1vt_R75,2.6092774308652986,%
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,matched FP against B in same seed,FP_per_image,6.620542082738944,FP/image
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,matched FP against B in same seed,dup_per_TP,0.04725942074120212,dup/TP
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,matched FP against B in same seed,FP50,18564,count
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,matched FP against B in same seed,TP50,51376,count
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,matched FP against B in same seed,dup_FP50,2428,count
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,matched FP against B in same seed,threshold,0.2776225209236145,score
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,500 val images,energy_mJ,57.331951400498404,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,500 val images,energy_mJ_first_layer_4p6pJ,57.50505860049841,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,500 val images batch=1,pipeline_ms_per_image,68.09921799902804,ms/image
+baseline50,AI-TOD-v2 val,50,2,STAL_SD,500 val images batch=4,pipeline_ms_per_image,26.659151199506596,ms/image
+baseline50,AI-TOD-v2 val,50,representative,STAL_SD,deployment,parameters,23125160,parameters
+baseline50,AI-TOD-v2 val,50,0,P2,official,AP,23.257161451641505,%
+baseline50,AI-TOD-v2 val,50,0,P2,official,AP50,52.14777243660698,%
+baseline50,AI-TOD-v2 val,50,0,P2,official,AP75,16.294172983273626,%
+baseline50,AI-TOD-v2 val,50,0,P2,official,APvt,7.057920591845725,%
+baseline50,AI-TOD-v2 val,50,0,P2,official,APt,21.376507744831834,%
+baseline50,AI-TOD-v2 val,50,0,P2,score>=0.25,FP_per_image,7.737874465049929,FP/image
+baseline50,AI-TOD-v2 val,50,0,P2,score>=0.25,dup_per_TP,0.07029739098704615,dup/TP
+baseline50,AI-TOD-v2 val,50,0,P2,score>=0.25,FP50,21697,count
+baseline50,AI-TOD-v2 val,50,0,P2,score>=0.25,TP50,54810,count
+baseline50,AI-TOD-v2 val,50,0,P2,score>=0.25,dup_FP50,3853,count
+baseline50,AI-TOD-v2 val,50,0,P2,common4,common4_APvt,13.015076825948608,%
+baseline50,AI-TOD-v2 val,50,0,P2,common4,common4_APt,31.1682229894463,%
+baseline50,AI-TOD-v2 val,50,0,P2,score>=0.25,E1vt_R50,34.834968777876895,%
+baseline50,AI-TOD-v2 val,50,0,P2,score>=0.25,E1vt_R75,6.132917038358609,%
+baseline50,AI-TOD-v2 val,50,0,P2,matched FP against B in same seed,E1vt_R50,33.54148082069581,%
+baseline50,AI-TOD-v2 val,50,0,P2,matched FP against B in same seed,E1vt_R75,5.95450490633363,%
+baseline50,AI-TOD-v2 val,50,0,P2,matched FP against B in same seed,FP_per_image,6.866262482168331,FP/image
+baseline50,AI-TOD-v2 val,50,0,P2,matched FP against B in same seed,dup_per_TP,0.05748786902248398,dup/TP
+baseline50,AI-TOD-v2 val,50,0,P2,matched FP against B in same seed,FP50,19253,count
+baseline50,AI-TOD-v2 val,50,0,P2,matched FP against B in same seed,TP50,53994,count
+baseline50,AI-TOD-v2 val,50,0,P2,matched FP against B in same seed,dup_FP50,3104,count
+baseline50,AI-TOD-v2 val,50,0,P2,matched FP against B in same seed,threshold,0.26790016889572144,score
+baseline50,AI-TOD-v2 val,50,0,P2,500 val images,energy_mJ,67.395699141705,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,0,P2,500 val images,energy_mJ_first_layer_4p6pJ,67.56880634170503,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,0,P2,500 val images,GMACs_dense,190.99968,GMAC/image
+baseline50,AI-TOD-v2 val,50,0,P2,500 val images batch=1,pipeline_ms_per_image,67.0775792025961,ms/image
+baseline50,AI-TOD-v2 val,50,0,P2,500 val images batch=4,pipeline_ms_per_image,35.18861799919978,ms/image
+baseline50,AI-TOD-v2 val,50,1,P2,official,AP,23.05977446650764,%
+baseline50,AI-TOD-v2 val,50,1,P2,official,AP50,51.57146987427377,%
+baseline50,AI-TOD-v2 val,50,1,P2,official,AP75,16.289436545708615,%
+baseline50,AI-TOD-v2 val,50,1,P2,official,APvt,6.792355307798616,%
+baseline50,AI-TOD-v2 val,50,1,P2,official,APt,21.044270990376166,%
+baseline50,AI-TOD-v2 val,50,1,P2,score>=0.25,FP_per_image,7.799928673323823,FP/image
+baseline50,AI-TOD-v2 val,50,1,P2,score>=0.25,dup_per_TP,0.06688761123521442,dup/TP
+baseline50,AI-TOD-v2 val,50,1,P2,score>=0.25,FP50,21871,count
+baseline50,AI-TOD-v2 val,50,1,P2,score>=0.25,TP50,54614,count
+baseline50,AI-TOD-v2 val,50,1,P2,score>=0.25,dup_FP50,3653,count
+baseline50,AI-TOD-v2 val,50,1,P2,common4,common4_APvt,13.192776887128893,%
+baseline50,AI-TOD-v2 val,50,1,P2,common4,common4_APt,31.406488180090797,%
+baseline50,AI-TOD-v2 val,50,1,P2,score>=0.25,E1vt_R50,34.16592328278323,%
+baseline50,AI-TOD-v2 val,50,1,P2,score>=0.25,E1vt_R75,5.463871543264942,%
+baseline50,AI-TOD-v2 val,50,1,P2,matched FP against B in same seed,E1vt_R50,32.716324710080286,%
+baseline50,AI-TOD-v2 val,50,1,P2,matched FP against B in same seed,E1vt_R75,5.24085637823372,%
+baseline50,AI-TOD-v2 val,50,1,P2,matched FP against B in same seed,FP_per_image,6.809557774607703,FP/image
+baseline50,AI-TOD-v2 val,50,1,P2,matched FP against B in same seed,dup_per_TP,0.05372039326679577,dup/TP
+baseline50,AI-TOD-v2 val,50,1,P2,matched FP against B in same seed,FP50,19094,count
+baseline50,AI-TOD-v2 val,50,1,P2,matched FP against B in same seed,TP50,53704,count
+baseline50,AI-TOD-v2 val,50,1,P2,matched FP against B in same seed,dup_FP50,2885,count
+baseline50,AI-TOD-v2 val,50,1,P2,matched FP against B in same seed,threshold,0.2687961459159851,score
+baseline50,AI-TOD-v2 val,50,1,P2,500 val images,energy_mJ,68.759950309875,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,1,P2,500 val images,energy_mJ_first_layer_4p6pJ,68.933057509875,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,1,P2,500 val images,GMACs_dense,190.99968,GMAC/image
+baseline50,AI-TOD-v2 val,50,1,P2,500 val images batch=1,pipeline_ms_per_image,71.370009198552,ms/image
+baseline50,AI-TOD-v2 val,50,1,P2,500 val images batch=4,pipeline_ms_per_image,36.08726100088097,ms/image
+baseline50,AI-TOD-v2 val,50,2,P2,official,AP,23.593591959408506,%
+baseline50,AI-TOD-v2 val,50,2,P2,official,AP50,52.5381754379581,%
+baseline50,AI-TOD-v2 val,50,2,P2,official,AP75,16.71951333042292,%
+baseline50,AI-TOD-v2 val,50,2,P2,official,APvt,7.062996916825795,%
+baseline50,AI-TOD-v2 val,50,2,P2,official,APt,21.740616083978136,%
+baseline50,AI-TOD-v2 val,50,2,P2,score>=0.25,FP_per_image,7.198644793152639,FP/image
+baseline50,AI-TOD-v2 val,50,2,P2,score>=0.25,dup_per_TP,0.06505504231896886,dup/TP
+baseline50,AI-TOD-v2 val,50,2,P2,score>=0.25,FP50,20185,count
+baseline50,AI-TOD-v2 val,50,2,P2,score>=0.25,TP50,54231,count
+baseline50,AI-TOD-v2 val,50,2,P2,score>=0.25,dup_FP50,3528,count
+baseline50,AI-TOD-v2 val,50,2,P2,common4,common4_APvt,13.028120767956745,%
+baseline50,AI-TOD-v2 val,50,2,P2,common4,common4_APt,31.28113319024684,%
+baseline50,AI-TOD-v2 val,50,2,P2,score>=0.25,E1vt_R50,33.31846565566458,%
+baseline50,AI-TOD-v2 val,50,2,P2,score>=0.25,E1vt_R75,5.44157002676182,%
+baseline50,AI-TOD-v2 val,50,2,P2,matched FP against B in same seed,E1vt_R50,32.64942016057092,%
+baseline50,AI-TOD-v2 val,50,2,P2,matched FP against B in same seed,E1vt_R75,5.352363960749331,%
+baseline50,AI-TOD-v2 val,50,2,P2,matched FP against B in same seed,FP_per_image,6.620542082738944,FP/image
+baseline50,AI-TOD-v2 val,50,2,P2,matched FP against B in same seed,dup_per_TP,0.05714818266542405,dup/TP
+baseline50,AI-TOD-v2 val,50,2,P2,matched FP against B in same seed,FP50,18564,count
+baseline50,AI-TOD-v2 val,50,2,P2,matched FP against B in same seed,TP50,53650,count
+baseline50,AI-TOD-v2 val,50,2,P2,matched FP against B in same seed,dup_FP50,3066,count
+baseline50,AI-TOD-v2 val,50,2,P2,matched FP against B in same seed,threshold,0.2619525194168091,score
+baseline50,AI-TOD-v2 val,50,2,P2,500 val images,energy_mJ,69.0036351898878,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,2,P2,500 val images,energy_mJ_first_layer_4p6pJ,69.17674238988782,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,2,P2,500 val images,GMACs_dense,190.99968,GMAC/image
+baseline50,AI-TOD-v2 val,50,2,P2,500 val images batch=1,pipeline_ms_per_image,67.12336500291713,ms/image
+baseline50,AI-TOD-v2 val,50,2,P2,500 val images batch=4,pipeline_ms_per_image,35.211673798272386,ms/image
+baseline50,AI-TOD-v2 val,50,representative,P2,deployment,parameters,23758128,parameters
+baseline50,AI-TOD-v2 val,50,0,TWIN,official,AP,23.95636865373804,%
+baseline50,AI-TOD-v2 val,50,0,TWIN,official,AP50,54.58633731437828,%
+baseline50,AI-TOD-v2 val,50,0,TWIN,official,AP75,17.420841235541808,%
+baseline50,AI-TOD-v2 val,50,0,TWIN,official,APvt,6.270543513354595,%
+baseline50,AI-TOD-v2 val,50,0,TWIN,official,APt,21.670944858731144,%
+baseline50,AI-TOD-v2 val,50,0,TWIN,score>=0.25,FP_per_image,6.5160485021398005,FP/image
+baseline50,AI-TOD-v2 val,50,0,TWIN,score>=0.25,dup_per_TP,0.03751503465129155,dup/TP
+baseline50,AI-TOD-v2 val,50,0,TWIN,score>=0.25,FP50,18271,count
+baseline50,AI-TOD-v2 val,50,0,TWIN,score>=0.25,TP50,52379,count
+baseline50,AI-TOD-v2 val,50,0,TWIN,score>=0.25,dup_FP50,1965,count
+baseline50,AI-TOD-v2 val,50,0,TWIN,common4,common4_APvt,10.452054050042284,%
+baseline50,AI-TOD-v2 val,50,0,TWIN,common4,common4_APt,30.413044060009952,%
+baseline50,AI-TOD-v2 val,50,0,TWIN,score>=0.25,E1vt_R50,14.585191793041927,%
+baseline50,AI-TOD-v2 val,50,0,TWIN,score>=0.25,E1vt_R75,0.6021409455842998,%
+baseline50,AI-TOD-v2 val,50,0,TWIN,matched FP against B in same seed,E1vt_R50,15.098126672613738,%
+baseline50,AI-TOD-v2 val,50,0,TWIN,matched FP against B in same seed,E1vt_R75,0.6021409455842998,%
+baseline50,AI-TOD-v2 val,50,0,TWIN,matched FP against B in same seed,FP_per_image,6.866262482168331,FP/image
+baseline50,AI-TOD-v2 val,50,0,TWIN,matched FP against B in same seed,dup_per_TP,0.04036808422009316,dup/TP
+baseline50,AI-TOD-v2 val,50,0,TWIN,matched FP against B in same seed,FP50,19253,count
+baseline50,AI-TOD-v2 val,50,0,TWIN,matched FP against B in same seed,TP50,52814,count
+baseline50,AI-TOD-v2 val,50,0,TWIN,matched FP against B in same seed,dup_FP50,2132,count
+baseline50,AI-TOD-v2 val,50,0,TWIN,matched FP against B in same seed,threshold,0.23955829441547394,score
+baseline50,AI-TOD-v2 val,50,0,TWIN,500 val images,energy_mJ,675.5764607999996,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,0,TWIN,500 val images,energy_mJ_first_layer_4p6pJ,750.6405119999998,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,0,TWIN,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,0,TWIN,500 val images batch=1,pipeline_ms_per_image,58.7315935974475,ms/image
+baseline50,AI-TOD-v2 val,50,0,TWIN,500 val images batch=4,pipeline_ms_per_image,25.66138659720309,ms/image
+baseline50,AI-TOD-v2 val,50,1,TWIN,official,AP,23.63991459992101,%
+baseline50,AI-TOD-v2 val,50,1,TWIN,official,AP50,53.052227912891595,%
+baseline50,AI-TOD-v2 val,50,1,TWIN,official,AP75,17.29087148284639,%
+baseline50,AI-TOD-v2 val,50,1,TWIN,official,APvt,6.5838425307626585,%
+baseline50,AI-TOD-v2 val,50,1,TWIN,official,APt,20.93211429959803,%
+baseline50,AI-TOD-v2 val,50,1,TWIN,score>=0.25,FP_per_image,6.415477888730385,FP/image
+baseline50,AI-TOD-v2 val,50,1,TWIN,score>=0.25,dup_per_TP,0.04283206776815355,dup/TP
+baseline50,AI-TOD-v2 val,50,1,TWIN,score>=0.25,FP50,17989,count
+baseline50,AI-TOD-v2 val,50,1,TWIN,score>=0.25,TP50,52414,count
+baseline50,AI-TOD-v2 val,50,1,TWIN,score>=0.25,dup_FP50,2245,count
+baseline50,AI-TOD-v2 val,50,1,TWIN,common4,common4_APvt,10.329583312321516,%
+baseline50,AI-TOD-v2 val,50,1,TWIN,common4,common4_APt,30.34304488342785,%
+baseline50,AI-TOD-v2 val,50,1,TWIN,score>=0.25,E1vt_R50,14.429081177520072,%
+baseline50,AI-TOD-v2 val,50,1,TWIN,score>=0.25,E1vt_R75,0.44603033006244425,%
+baseline50,AI-TOD-v2 val,50,1,TWIN,matched FP against B in same seed,E1vt_R50,15.008920606601249,%
+baseline50,AI-TOD-v2 val,50,1,TWIN,matched FP against B in same seed,E1vt_R75,0.44603033006244425,%
+baseline50,AI-TOD-v2 val,50,1,TWIN,matched FP against B in same seed,FP_per_image,6.809557774607703,FP/image
+baseline50,AI-TOD-v2 val,50,1,TWIN,matched FP against B in same seed,dup_per_TP,0.046312762495743315,dup/TP
+baseline50,AI-TOD-v2 val,50,1,TWIN,matched FP against B in same seed,FP50,19094,count
+baseline50,AI-TOD-v2 val,50,1,TWIN,matched FP against B in same seed,TP50,52858,count
+baseline50,AI-TOD-v2 val,50,1,TWIN,matched FP against B in same seed,dup_FP50,2448,count
+baseline50,AI-TOD-v2 val,50,1,TWIN,matched FP against B in same seed,threshold,0.24009056389331818,score
+baseline50,AI-TOD-v2 val,50,1,TWIN,500 val images,energy_mJ,675.5764607999996,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,1,TWIN,500 val images,energy_mJ_first_layer_4p6pJ,750.6405119999998,estimated mJ/image
+baseline50,AI-TOD-v2 val,50,1,TWIN,500 val images,GMACs_dense,163.18272,GMAC/image
+baseline50,AI-TOD-v2 val,50,1,TWIN,500 val images batch=1,pipeline_ms_per_image,63.02596820308827,ms/image
+baseline50,AI-TOD-v2 val,50,1,TWIN,500 val images batch=4,pipeline_ms_per_image,25.220255000516772,ms/image
+baseline50,AI-TOD-v2 val,50,representative,TWIN,deployment,parameters,23125160,parameters
+SD_mechanism,AI-TOD-v2 val,50,0-2,STAL_SD_minus_STAL,fixed 0.25,E1vt_R75_delta,0.6021409455842996,pp
+SD_mechanism,AI-TOD-v2 val,50,0-2,STAL_SD_minus_STAL,fixed 0.25,E1vt_R75_CI_low,0.187120918828236,pp
+SD_mechanism,AI-TOD-v2 val,50,0-2,STAL_SD_minus_STAL,fixed 0.25,E1vt_R75_CI_high,1.0874025441116122,pp
+readout,AI-TOD-v2 val,50,0,STAL_SD,E1vt score>=0.25 IoU>=0.75,D_SD,146,count
+readout,AI-TOD-v2 val,50,0,STAL_SD,E1vt score>=0.25 IoU>=0.75,D_STAL,100,count
+readout,AI-TOD-v2 val,50,0,STAL_SD,E1vt score>=0.25 IoU>=0.75,R,102,count
+readout,AI-TOD-v2 val,50,0,STAL_SD,E1vt score>=0.25 IoU>=0.75,G,36,count
+readout,AI-TOD-v2 val,50,0,STAL_SD,E1vt score>=0.25 IoU>=0.75,P,2,count
+readout,AI-TOD-v2 val,50,0,STAL_SD,E1vt score>=0.25 IoU>=0.75,K,64,count
+readout,AI-TOD-v2 val,50,0,STAL_SD,E1vt score>=0.25 IoU>=0.75,D_plus,125,count
+readout,AI-TOD-v2 val,50,0,STAL_SD,native decode score>=0.25,E1vt_R50,25.936663693131134,%
+readout,AI-TOD-v2 val,50,0,STAL_SD,native decode score>=0.25,E1vt_R75,3.256021409455843,%
+readout,AI-TOD-v2 val,50,0,STAL_SD,native decode score>=0.25,FP_per_image,7.9054921540656204,FP/image
+readout,AI-TOD-v2 val,50,0,STAL_SD,native decode score>=0.25,dup_per_TP,0.06207377265363023,dup/TP
+readout,AI-TOD-v2 val,50,0,STAL_SD,native decode score>=0.25,TP50,53082,count
+readout,AI-TOD-v2 val,50,0,STAL_SD,native decode score>=0.25,FP50,22167,count
+readout,AI-TOD-v2 val,50,0,STAL_SD,native decode score>=0.25,dup_FP50,3295,count
+readout,AI-TOD-v2 val,50,0,STAL_SD,restricted decode score>=0.25,E1vt_R50,25.22301516503122,%
+readout,AI-TOD-v2 val,50,0,STAL_SD,restricted decode score>=0.25,E1vt_R75,2.7876895628902765,%
+readout,AI-TOD-v2 val,50,0,STAL_SD,restricted decode score>=0.25,FP_per_image,8.927603423680457,FP/image
+readout,AI-TOD-v2 val,50,0,STAL_SD,restricted decode score>=0.25,dup_per_TP,0.08798885311340827,dup/TP
+readout,AI-TOD-v2 val,50,0,STAL_SD,restricted decode score>=0.25,TP50,53109,count
+readout,AI-TOD-v2 val,50,0,STAL_SD,restricted decode score>=0.25,FP50,25033,count
+readout,AI-TOD-v2 val,50,0,STAL_SD,restricted decode score>=0.25,dup_FP50,4673,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,E1vt score>=0.25 IoU>=0.75,D_SD,132,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,E1vt score>=0.25 IoU>=0.75,D_STAL,101,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,E1vt score>=0.25 IoU>=0.75,R,92,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,E1vt score>=0.25 IoU>=0.75,G,38,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,E1vt score>=0.25 IoU>=0.75,P,1,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,E1vt score>=0.25 IoU>=0.75,K,53,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,E1vt score>=0.25 IoU>=0.75,D_plus,114,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,native decode score>=0.25,E1vt_R50,25.022301516503124,%
+readout,AI-TOD-v2 val,50,1,STAL_SD,native decode score>=0.25,E1vt_R75,2.943800178412132,%
+readout,AI-TOD-v2 val,50,1,STAL_SD,native decode score>=0.25,FP_per_image,7.488231098430813,FP/image
+readout,AI-TOD-v2 val,50,1,STAL_SD,native decode score>=0.25,dup_per_TP,0.06102964949316293,dup/TP
+readout,AI-TOD-v2 val,50,1,STAL_SD,native decode score>=0.25,TP50,52581,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,native decode score>=0.25,FP50,20997,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,native decode score>=0.25,dup_FP50,3209,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,restricted decode score>=0.25,E1vt_R50,24.30865298840321,%
+readout,AI-TOD-v2 val,50,1,STAL_SD,restricted decode score>=0.25,E1vt_R75,2.542372881355932,%
+readout,AI-TOD-v2 val,50,1,STAL_SD,restricted decode score>=0.25,FP_per_image,8.485021398002853,FP/image
+readout,AI-TOD-v2 val,50,1,STAL_SD,restricted decode score>=0.25,dup_per_TP,0.08693915590467315,dup/TP
+readout,AI-TOD-v2 val,50,1,STAL_SD,restricted decode score>=0.25,TP50,52577,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,restricted decode score>=0.25,FP50,23792,count
+readout,AI-TOD-v2 val,50,1,STAL_SD,restricted decode score>=0.25,dup_FP50,4571,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,E1vt score>=0.25 IoU>=0.75,D_SD,128,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,E1vt score>=0.25 IoU>=0.75,D_STAL,124,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,E1vt score>=0.25 IoU>=0.75,R,78,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,E1vt score>=0.25 IoU>=0.75,G,37,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,E1vt score>=0.25 IoU>=0.75,P,0,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,E1vt score>=0.25 IoU>=0.75,K,41,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,E1vt score>=0.25 IoU>=0.75,D_plus,105,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,native decode score>=0.25,E1vt_R50,25.825156110615524,%
+readout,AI-TOD-v2 val,50,2,STAL_SD,native decode score>=0.25,E1vt_R75,2.854594112399643,%
+readout,AI-TOD-v2 val,50,2,STAL_SD,native decode score>=0.25,FP_per_image,7.721469329529244,FP/image
+readout,AI-TOD-v2 val,50,2,STAL_SD,native decode score>=0.25,dup_per_TP,0.0581618499306466,dup/TP
+readout,AI-TOD-v2 val,50,2,STAL_SD,native decode score>=0.25,TP50,52629,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,native decode score>=0.25,FP50,21651,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,native decode score>=0.25,dup_FP50,3061,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,restricted decode score>=0.25,E1vt_R50,25.11150758251561,%
+readout,AI-TOD-v2 val,50,2,STAL_SD,restricted decode score>=0.25,E1vt_R75,2.3416592328278325,%
+readout,AI-TOD-v2 val,50,2,STAL_SD,restricted decode score>=0.25,FP_per_image,8.677960057061341,FP/image
+readout,AI-TOD-v2 val,50,2,STAL_SD,restricted decode score>=0.25,dup_per_TP,0.08263661929011172,dup/TP
+readout,AI-TOD-v2 val,50,2,STAL_SD,restricted decode score>=0.25,TP50,52628,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,restricted decode score>=0.25,FP50,24333,count
+readout,AI-TOD-v2 val,50,2,STAL_SD,restricted decode score>=0.25,dup_FP50,4349,count
+readout,AI-TOD-v2 val,50,0-2,STAL_SD,E1vt score>=0.25 IoU>=0.75,phi,0.40808823529411764,ratio
+test50,AI-TOD-v2 test,50,7,B_trainval,score>=0.25,E1vt_R50,13.245577951460305,%
+test50,AI-TOD-v2 test,50,7,B_trainval,score>=0.25,E1vt_R75,0.44734677087618263,%
+test50,AI-TOD-v2 test,50,7,B_trainval,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,7,B_trainval,official,AP,21.837297824241094,%
+test50,AI-TOD-v2 test,50,7,B_trainval,official,AP50,52.03704994128958,%
+test50,AI-TOD-v2 test,50,7,B_trainval,official,AP75,14.257984834620153,%
+test50,AI-TOD-v2 test,50,7,B_trainval,official,APvt,7.260394155915359,%
+test50,AI-TOD-v2 test,50,7,B_trainval,official,APt,19.53913497901485,%
+test50,AI-TOD-v2 test,50,7,B_trainval,official,APs,29.62076132481747,%
+test50,AI-TOD-v2 test,50,7,B_trainval,official,APm,39.35315334870203,%
+test50,AI-TOD-v2 test,50,7,B_trainval,score>=0.25,FP_per_image,7.170495077757169,FP/image
+test50,AI-TOD-v2 test,50,7,B_trainval,score>=0.25,dup_per_TP,0.05913633702055791,dup/TP
+test50,AI-TOD-v2 test,50,7,B_trainval,score>=0.25,FP50,100516,count
+test50,AI-TOD-v2 test,50,7,B_trainval,score>=0.25,TP50,251047,count
+test50,AI-TOD-v2 test,50,7,B_trainval,score>=0.25,dup_FP50,14846,count
+test50,AI-TOD-v2 test,50,0,STAL_SD,score>=0.25,E1vt_R50,23.750514191690662,%
+test50,AI-TOD-v2 test,50,0,STAL_SD,score>=0.25,E1vt_R75,2.900041135335253,%
+test50,AI-TOD-v2 test,50,0,STAL_SD,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,0,STAL_SD,official,AP,20.511078058551586,%
+test50,AI-TOD-v2 test,50,0,STAL_SD,official,AP50,49.59020606597031,%
+test50,AI-TOD-v2 test,50,0,STAL_SD,official,AP75,13.260142983624865,%
+test50,AI-TOD-v2 test,50,0,STAL_SD,official,APvt,6.135759479240098,%
+test50,AI-TOD-v2 test,50,0,STAL_SD,official,APt,18.630255132013744,%
+test50,AI-TOD-v2 test,50,0,STAL_SD,official,APs,27.450635221648827,%
+test50,AI-TOD-v2 test,50,0,STAL_SD,official,APm,37.08717727956199,%
+test50,AI-TOD-v2 test,50,0,STAL_SD,score>=0.25,FP_per_image,8.00406620059923,FP/image
+test50,AI-TOD-v2 test,50,0,STAL_SD,score>=0.25,dup_per_TP,0.0667311221167696,dup/TP
+test50,AI-TOD-v2 test,50,0,STAL_SD,score>=0.25,FP50,112201,count
+test50,AI-TOD-v2 test,50,0,STAL_SD,score>=0.25,TP50,253405,count
+test50,AI-TOD-v2 test,50,0,STAL_SD,score>=0.25,dup_FP50,16910,count
+test50,AI-TOD-v2 test,50,1,STAL_SD,score>=0.25,E1vt_R50,22.927807486631018,%
+test50,AI-TOD-v2 test,50,1,STAL_SD,score>=0.25,E1vt_R75,2.7406417112299466,%
+test50,AI-TOD-v2 test,50,1,STAL_SD,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,1,STAL_SD,official,AP,21.011651442171278,%
+test50,AI-TOD-v2 test,50,1,STAL_SD,official,AP50,50.86290862903166,%
+test50,AI-TOD-v2 test,50,1,STAL_SD,official,AP75,13.487787069700987,%
+test50,AI-TOD-v2 test,50,1,STAL_SD,official,APvt,7.248369153498826,%
+test50,AI-TOD-v2 test,50,1,STAL_SD,official,APt,18.723810131926015,%
+test50,AI-TOD-v2 test,50,1,STAL_SD,official,APs,28.058940209993395,%
+test50,AI-TOD-v2 test,50,1,STAL_SD,official,APm,37.688705550413495,%
+test50,AI-TOD-v2 test,50,1,STAL_SD,score>=0.25,FP_per_image,7.62961906120702,FP/image
+test50,AI-TOD-v2 test,50,1,STAL_SD,score>=0.25,dup_per_TP,0.06503006608585207,dup/TP
+test50,AI-TOD-v2 test,50,1,STAL_SD,score>=0.25,FP50,106952,count
+test50,AI-TOD-v2 test,50,1,STAL_SD,score>=0.25,TP50,251945,count
+test50,AI-TOD-v2 test,50,1,STAL_SD,score>=0.25,dup_FP50,16384,count
+test50,AI-TOD-v2 test,50,2,STAL_SD,score>=0.25,E1vt_R50,23.642533936651585,%
+test50,AI-TOD-v2 test,50,2,STAL_SD,score>=0.25,E1vt_R75,2.776635129576306,%
+test50,AI-TOD-v2 test,50,2,STAL_SD,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,2,STAL_SD,official,AP,20.87834807939539,%
+test50,AI-TOD-v2 test,50,2,STAL_SD,official,AP50,50.38905134313738,%
+test50,AI-TOD-v2 test,50,2,STAL_SD,official,AP75,13.12326344244,%
+test50,AI-TOD-v2 test,50,2,STAL_SD,official,APvt,6.099030991650451,%
+test50,AI-TOD-v2 test,50,2,STAL_SD,official,APt,18.616814621609507,%
+test50,AI-TOD-v2 test,50,2,STAL_SD,official,APs,27.68007120571591,%
+test50,AI-TOD-v2 test,50,2,STAL_SD,official,APm,37.18163738498683,%
+test50,AI-TOD-v2 test,50,2,STAL_SD,score>=0.25,FP_per_image,7.736196319018405,FP/image
+test50,AI-TOD-v2 test,50,2,STAL_SD,score>=0.25,dup_per_TP,0.06416407903324697,dup/TP
+test50,AI-TOD-v2 test,50,2,STAL_SD,score>=0.25,FP50,108446,count
+test50,AI-TOD-v2 test,50,2,STAL_SD,score>=0.25,TP50,252805,count
+test50,AI-TOD-v2 test,50,2,STAL_SD,score>=0.25,dup_FP50,16221,count
+test50,AI-TOD-v2 test,50,0,B,score>=0.25,E1vt_R50,12.237762237762238,%
+test50,AI-TOD-v2 test,50,0,B,score>=0.25,E1vt_R75,0.30337309749074454,%
+test50,AI-TOD-v2 test,50,0,B,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,0,B,official,AP,20.52765716462534,%
+test50,AI-TOD-v2 test,50,0,B,official,AP50,49.72411946854102,%
+test50,AI-TOD-v2 test,50,0,B,official,AP75,12.962350878328957,%
+test50,AI-TOD-v2 test,50,0,B,official,APvt,6.452011974183323,%
+test50,AI-TOD-v2 test,50,0,B,official,APt,18.65152220585402,%
+test50,AI-TOD-v2 test,50,0,B,official,APs,27.81957545065743,%
+test50,AI-TOD-v2 test,50,0,B,official,APm,37.64333681520221,%
+test50,AI-TOD-v2 test,50,0,B,score>=0.25,FP_per_image,7.090383792267085,FP/image
+test50,AI-TOD-v2 test,50,0,B,score>=0.25,dup_per_TP,0.05917430256525377,dup/TP
+test50,AI-TOD-v2 test,50,0,B,score>=0.25,FP50,99393,count
+test50,AI-TOD-v2 test,50,0,B,score>=0.25,TP50,245005,count
+test50,AI-TOD-v2 test,50,0,B,score>=0.25,dup_FP50,14498,count
+test50,AI-TOD-v2 test,50,1,B,score>=0.25,E1vt_R50,12.042369395310573,%
+test50,AI-TOD-v2 test,50,1,B,score>=0.25,E1vt_R75,0.39592760180995473,%
+test50,AI-TOD-v2 test,50,1,B,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,1,B,official,AP,20.694506841964465,%
+test50,AI-TOD-v2 test,50,1,B,official,AP50,49.95719855554178,%
+test50,AI-TOD-v2 test,50,1,B,official,AP75,13.695268816273645,%
+test50,AI-TOD-v2 test,50,1,B,official,APvt,6.54639166447349,%
+test50,AI-TOD-v2 test,50,1,B,official,APt,18.161701543369535,%
+test50,AI-TOD-v2 test,50,1,B,official,APs,27.641435577237555,%
+test50,AI-TOD-v2 test,50,1,B,official,APm,38.44987310780114,%
+test50,AI-TOD-v2 test,50,1,B,score>=0.25,FP_per_image,7.019332287059495,FP/image
+test50,AI-TOD-v2 test,50,1,B,score>=0.25,dup_per_TP,0.058592279874985685,dup/TP
+test50,AI-TOD-v2 test,50,1,B,score>=0.25,FP50,98397,count
+test50,AI-TOD-v2 test,50,1,B,score>=0.25,TP50,244452,count
+test50,AI-TOD-v2 test,50,1,B,score>=0.25,dup_FP50,14323,count
+test50,AI-TOD-v2 test,50,2,B,score>=0.25,E1vt_R50,12.124640065816536,%
+test50,AI-TOD-v2 test,50,2,B,score>=0.25,E1vt_R75,0.30851501439736734,%
+test50,AI-TOD-v2 test,50,2,B,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,2,B,official,AP,20.52299268218113,%
+test50,AI-TOD-v2 test,50,2,B,official,AP50,49.58028392300907,%
+test50,AI-TOD-v2 test,50,2,B,official,AP75,13.11280290630793,%
+test50,AI-TOD-v2 test,50,2,B,official,APvt,6.107884945936847,%
+test50,AI-TOD-v2 test,50,2,B,official,APt,18.450834599179665,%
+test50,AI-TOD-v2 test,50,2,B,official,APs,27.874954610690793,%
+test50,AI-TOD-v2 test,50,2,B,official,APm,37.33101528102465,%
+test50,AI-TOD-v2 test,50,2,B,score>=0.25,FP_per_image,6.9104009131117135,FP/image
+test50,AI-TOD-v2 test,50,2,B,score>=0.25,dup_per_TP,0.05827895226260914,dup/TP
+test50,AI-TOD-v2 test,50,2,B,score>=0.25,FP50,96870,count
+test50,AI-TOD-v2 test,50,2,B,score>=0.25,TP50,243038,count
+test50,AI-TOD-v2 test,50,2,B,score>=0.25,dup_FP50,14164,count
+test50,AI-TOD-v2 test,50,0,P2,score>=0.25,E1vt_R50,32.37350884409708,%
+test50,AI-TOD-v2 test,50,0,P2,score>=0.25,E1vt_R75,5.213903743315508,%
+test50,AI-TOD-v2 test,50,0,P2,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,0,P2,official,AP,21.542763867562424,%
+test50,AI-TOD-v2 test,50,0,P2,official,AP50,50.315525155421284,%
+test50,AI-TOD-v2 test,50,0,P2,official,AP75,14.341997556963273,%
+test50,AI-TOD-v2 test,50,0,P2,official,APvt,6.904041762772259,%
+test50,AI-TOD-v2 test,50,0,P2,official,APt,19.759087173514537,%
+test50,AI-TOD-v2 test,50,0,P2,official,APs,27.56636409633133,%
+test50,AI-TOD-v2 test,50,0,P2,official,APm,36.97084398444731,%
+test50,AI-TOD-v2 test,50,0,P2,score>=0.25,FP_per_image,7.709730346697103,FP/image
+test50,AI-TOD-v2 test,50,0,P2,score>=0.25,dup_per_TP,0.0709776235126475,dup/TP
+test50,AI-TOD-v2 test,50,0,P2,score>=0.25,FP50,108075,count
+test50,AI-TOD-v2 test,50,0,P2,score>=0.25,TP50,262463,count
+test50,AI-TOD-v2 test,50,0,P2,score>=0.25,dup_FP50,18629,count
+test50,AI-TOD-v2 test,50,1,P2,score>=0.25,E1vt_R50,31.144590703414234,%
+test50,AI-TOD-v2 test,50,1,P2,score>=0.25,E1vt_R75,4.864253393665158,%
+test50,AI-TOD-v2 test,50,1,P2,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,1,P2,official,AP,21.59577365897343,%
+test50,AI-TOD-v2 test,50,1,P2,official,AP50,50.464563378002616,%
+test50,AI-TOD-v2 test,50,1,P2,official,AP75,14.282861381977108,%
+test50,AI-TOD-v2 test,50,1,P2,official,APvt,8.061203840972956,%
+test50,AI-TOD-v2 test,50,1,P2,official,APt,19.952045858039206,%
+test50,AI-TOD-v2 test,50,1,P2,official,APs,28.06499558865721,%
+test50,AI-TOD-v2 test,50,1,P2,official,APm,36.57510393050991,%
+test50,AI-TOD-v2 test,50,1,P2,score>=0.25,FP_per_image,7.722856327578827,FP/image
+test50,AI-TOD-v2 test,50,1,P2,score>=0.25,dup_per_TP,0.07165494436680489,dup/TP
+test50,AI-TOD-v2 test,50,1,P2,score>=0.25,FP50,108259,count
+test50,AI-TOD-v2 test,50,1,P2,score>=0.25,TP50,261894,count
+test50,AI-TOD-v2 test,50,1,P2,score>=0.25,dup_FP50,18766,count
+test50,AI-TOD-v2 test,50,2,P2,score>=0.25,E1vt_R50,30.71781160016454,%
+test50,AI-TOD-v2 test,50,2,P2,score>=0.25,E1vt_R75,4.8385438091320445,%
+test50,AI-TOD-v2 test,50,2,P2,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,2,P2,official,AP,21.62026363195613,%
+test50,AI-TOD-v2 test,50,2,P2,official,AP50,50.53666962624169,%
+test50,AI-TOD-v2 test,50,2,P2,official,AP75,14.420025502583114,%
+test50,AI-TOD-v2 test,50,2,P2,official,APvt,8.20757022648555,%
+test50,AI-TOD-v2 test,50,2,P2,official,APt,19.842878074305894,%
+test50,AI-TOD-v2 test,50,2,P2,official,APs,27.424716678967425,%
+test50,AI-TOD-v2 test,50,2,P2,official,APm,36.91144349539172,%
+test50,AI-TOD-v2 test,50,2,P2,score>=0.25,FP_per_image,7.284919389356541,FP/image
+test50,AI-TOD-v2 test,50,2,P2,score>=0.25,dup_per_TP,0.06935950644115868,dup/TP
+test50,AI-TOD-v2 test,50,2,P2,score>=0.25,FP50,102120,count
+test50,AI-TOD-v2 test,50,2,P2,score>=0.25,TP50,259503,count
+test50,AI-TOD-v2 test,50,2,P2,score>=0.25,dup_FP50,17999,count
+test50,AI-TOD-v2 test,50,0,STAL,score>=0.25,E1vt_R50,23.642533936651585,%
+test50,AI-TOD-v2 test,50,0,STAL,score>=0.25,E1vt_R75,2.308720691073632,%
+test50,AI-TOD-v2 test,50,0,STAL,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,0,STAL,official,AP,20.310130632667075,%
+test50,AI-TOD-v2 test,50,0,STAL,official,AP50,49.927967298586836,%
+test50,AI-TOD-v2 test,50,0,STAL,official,AP75,13.159057263925003,%
+test50,AI-TOD-v2 test,50,0,STAL,official,APvt,6.127516791966328,%
+test50,AI-TOD-v2 test,50,0,STAL,official,APt,18.174286478593334,%
+test50,AI-TOD-v2 test,50,0,STAL,official,APs,27.2310801915144,%
+test50,AI-TOD-v2 test,50,0,STAL,official,APm,37.09414821019597,%
+test50,AI-TOD-v2 test,50,0,STAL,score>=0.25,FP_per_image,8.076401769153945,FP/image
+test50,AI-TOD-v2 test,50,0,STAL,score>=0.25,dup_per_TP,0.06749058073290398,dup/TP
+test50,AI-TOD-v2 test,50,0,STAL,score>=0.25,FP50,113215,count
+test50,AI-TOD-v2 test,50,0,STAL,score>=0.25,TP50,252939,count
+test50,AI-TOD-v2 test,50,0,STAL,score>=0.25,dup_FP50,17071,count
+test50,AI-TOD-v2 test,50,1,STAL,score>=0.25,E1vt_R50,24.069313039901274,%
+test50,AI-TOD-v2 test,50,1,STAL,score>=0.25,E1vt_R75,2.483545865898807,%
+test50,AI-TOD-v2 test,50,1,STAL,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,1,STAL,official,AP,20.525213686825065,%
+test50,AI-TOD-v2 test,50,1,STAL,official,AP50,50.279963448101604,%
+test50,AI-TOD-v2 test,50,1,STAL,official,AP75,12.782714375063017,%
+test50,AI-TOD-v2 test,50,1,STAL,official,APvt,6.91842895774804,%
+test50,AI-TOD-v2 test,50,1,STAL,official,APt,18.29716327391265,%
+test50,AI-TOD-v2 test,50,1,STAL,official,APs,27.60676649260631,%
+test50,AI-TOD-v2 test,50,1,STAL,official,APm,38.10189473363671,%
+test50,AI-TOD-v2 test,50,1,STAL,score>=0.25,FP_per_image,7.974390069910116,FP/image
+test50,AI-TOD-v2 test,50,1,STAL,score>=0.25,dup_per_TP,0.06717147527875965,dup/TP
+test50,AI-TOD-v2 test,50,1,STAL,score>=0.25,FP50,111785,count
+test50,AI-TOD-v2 test,50,1,STAL,score>=0.25,TP50,252637,count
+test50,AI-TOD-v2 test,50,1,STAL,score>=0.25,dup_FP50,16970,count
+test50,AI-TOD-v2 test,50,2,STAL,score>=0.25,E1vt_R50,22.480460715754834,%
+test50,AI-TOD-v2 test,50,2,STAL,score>=0.25,E1vt_R75,2.1030440148087206,%
+test50,AI-TOD-v2 test,50,2,STAL,score>=0.25,E1vt_n,19448,GT
+test50,AI-TOD-v2 test,50,2,STAL,official,AP,20.874842226074602,%
+test50,AI-TOD-v2 test,50,2,STAL,official,AP50,50.53419364163412,%
+test50,AI-TOD-v2 test,50,2,STAL,official,AP75,13.391134136651972,%
+test50,AI-TOD-v2 test,50,2,STAL,official,APvt,7.32988564040433,%
+test50,AI-TOD-v2 test,50,2,STAL,official,APt,18.628729895320106,%
+test50,AI-TOD-v2 test,50,2,STAL,official,APs,27.75509112742994,%
+test50,AI-TOD-v2 test,50,2,STAL,official,APm,37.86677597112133,%
+test50,AI-TOD-v2 test,50,2,STAL,score>=0.25,FP_per_image,7.95912398344985,FP/image
+test50,AI-TOD-v2 test,50,2,STAL,score>=0.25,dup_per_TP,0.06593814400429533,dup/TP
+test50,AI-TOD-v2 test,50,2,STAL,score>=0.25,FP50,111571,count
+test50,AI-TOD-v2 test,50,2,STAL,score>=0.25,TP50,253298,count
+test50,AI-TOD-v2 test,50,2,STAL,score>=0.25,dup_FP50,16702,count
+test50,AI-TOD-v2 test,50,0,B,score>=0.25,E1_outside_R50,9.500302236550473,%
+test50,AI-TOD-v2 test,50,0,B,score>=0.25,E1_outside_R75,0.0,%
+test50,AI-TOD-v2 test,50,1,B,score>=0.25,E1_outside_R50,9.429780374773323,%
+test50,AI-TOD-v2 test,50,1,B,score>=0.25,E1_outside_R75,0.01007455168245013,%
+test50,AI-TOD-v2 test,50,2,B,score>=0.25,E1_outside_R50,9.046947410840218,%
+test50,AI-TOD-v2 test,50,2,B,score>=0.25,E1_outside_R75,0.01007455168245013,%
+test50,AI-TOD-v2 test,50,0,STAL,score>=0.25,E1_outside_R50,23.211767076365103,%
+test50,AI-TOD-v2 test,50,0,STAL,score>=0.25,E1_outside_R75,0.7455168245013097,%
+test50,AI-TOD-v2 test,50,1,STAL,score>=0.25,E1_outside_R50,23.393109006649205,%
+test50,AI-TOD-v2 test,50,1,STAL,score>=0.25,E1_outside_R75,0.7455168245013097,%
+test50,AI-TOD-v2 test,50,2,STAL,score>=0.25,E1_outside_R50,22.244610114849888,%
+test50,AI-TOD-v2 test,50,2,STAL,score>=0.25,E1_outside_R75,0.614547652629458,%
+test50,AI-TOD-v2 test,50,0,STAL_SD,score>=0.25,E1_outside_R50,24.521458795083618,%
+test50,AI-TOD-v2 test,50,0,STAL_SD,score>=0.25,E1_outside_R75,2.982067298005239,%
+test50,AI-TOD-v2 test,50,1,STAL_SD,score>=0.25,E1_outside_R50,24.47108603667137,%
+test50,AI-TOD-v2 test,50,1,STAL_SD,score>=0.25,E1_outside_R75,2.669756195849285,%
+test50,AI-TOD-v2 test,50,2,STAL_SD,score>=0.25,E1_outside_R50,24.77332258714487,%
+test50,AI-TOD-v2 test,50,2,STAL_SD,score>=0.25,E1_outside_R75,2.770501712673786,%
+test50,AI-TOD-v2 test,50,0,P2,score>=0.25,E1_outside_R50,33.59862986097119,%
+test50,AI-TOD-v2 test,50,0,P2,score>=0.25,E1_outside_R75,5.158170461414467,%
+test50,AI-TOD-v2 test,50,1,P2,score>=0.25,E1_outside_R50,32.36953455571227,%
+test50,AI-TOD-v2 test,50,1,P2,score>=0.25,E1_outside_R75,4.8760830143058635,%
+test50,AI-TOD-v2 test,50,2,P2,score>=0.25,E1_outside_R50,31.916179730002014,%
+test50,AI-TOD-v2 test,50,2,P2,score>=0.25,E1_outside_R75,4.866008462623413,%
+test50,AI-TOD-v2 test,50,7,B_trainval,score>=0.25,E1_outside_R50,9.500302236550473,%
+test50,AI-TOD-v2 test,50,7,B_trainval,score>=0.25,E1_outside_R75,0.0,%
